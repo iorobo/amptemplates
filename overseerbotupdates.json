@@ -1,0 +1,7 @@
+{
+    "Linux": {
+      "Method": "DirectDownload",
+      "URI": "https://github.com/iorobo/overseerbot/releases/latest/download/overseer-bot",
+      "Executable": "./overseer-bot"
+    }
+}
