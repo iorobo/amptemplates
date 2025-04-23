@@ -4,7 +4,7 @@
     "Category": "Palworld",
     "Subcategory": "Connection",
     "Description": "Palworld API host URL",
-    "FieldName": "Palworld.Host",
+    "FieldName": "host",
     "InputType": "text",
     "DefaultValue": "http://localhost:8212",
     "ParamFieldName": "Host"
@@ -14,7 +14,7 @@
     "Category": "Palworld",
     "Subcategory": "Credentials",
     "Description": "Palworld admin username",
-    "FieldName": "Palworld.Username",
+    "FieldName": "username",
     "InputType": "text",
     "DefaultValue": "admin",
     "ParamFieldName": "Username"
@@ -24,7 +24,7 @@
     "Category": "Palworld",
     "Subcategory": "Credentials",
     "Description": "Palworld admin password",
-    "FieldName": "Palworld.Password",
+    "FieldName": "password",
     "InputType": "password",
     "DefaultValue": "password123",
     "ParamFieldName": "Password"
