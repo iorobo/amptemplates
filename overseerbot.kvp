@@ -63,4 +63,4 @@ App.DumpFullChildProcessTree=False
 App.SupportsUniversalSleep=False
 App.ApplicationReadyMode=ProcessRunning
 
-Meta.PreInstallCommand=wget -O overseer-bot https://github.com/iorobo/overseerbot/releases/latest/download/overseer-bot && chmod +x overseer-bot && wget -O config.template.json https://github.com/iorobo/overseerbot/releases/latest/download/config.template.json && ampinstmgr ReplaceText config.template.json config.json
+Meta.PreInstallCommand=wget -O overseer-bot https://github.com/iorobo/overseerbot/releases/latest/download/overseer-bot && chmod +x overseer-bot
