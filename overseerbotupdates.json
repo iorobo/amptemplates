@@ -1,7 +1,24 @@
-{
-    "Linux": {
-      "Method": "DirectDownload",
-      "URI": "https://github.com/iorobo/overseerbot/releases/latest/download/overseer-bot",
-      "Executable": "./overseer-bot"
-    }
-}
+[
+  {
+    "UpdateStageName": "",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "GithubRelease",
+    "UpdateSourceData": "overseer-bot",
+    "UpdateSourceArgs": "iorobo/overseerbot",
+    "UnzipUpdateSource": false,
+    "OverwriteExistingFiles": false,
+    "DeleteAfterExtract": true,
+    "OneShot": false
+  },
+  {
+    "UpdateStageName": "",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "GithubRelease",
+    "UpdateSourceData": "config.template.json",
+    "UpdateSourceArgs": "iorobo/overseerbot",
+    "UnzipUpdateSource": false,
+    "OverwriteExistingFiles": false,
+    "DeleteAfterExtract": true,
+    "OneShot": false
+  }
+]
