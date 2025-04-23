@@ -1,17 +1,32 @@
-{
-  "Palworld.Host": {
-    "DefaultValue": "http://localhost:8212",
+[
+  {
+    "DisplayName": "Palworld API URL",
+    "Category": "Palworld",
+    "Subcategory": "Connection",
     "Description": "Palworld API host URL",
-    "InputType": "text"
+    "FieldName": "Palworld.Host",
+    "InputType": "text",
+    "DefaultValue": "http://localhost:8212",
+    "ParamFieldName": "Host"
   },
-  "Palworld.Username": {
-    "DefaultValue": "admin",
+  {
+    "DisplayName": "Username",
+    "Category": "Palworld",
+    "Subcategory": "Credentials",
     "Description": "Palworld admin username",
-    "InputType": "text"
+    "FieldName": "Palworld.Username",
+    "InputType": "text",
+    "DefaultValue": "admin",
+    "ParamFieldName": "Username"
   },
-  "Palworld.Password": {
-    "DefaultValue": "password123",
+  {
+    "DisplayName": "Password",
+    "Category": "Palworld",
+    "Subcategory": "Credentials",
     "Description": "Palworld admin password",
-    "InputType": "password"
+    "FieldName": "Palworld.Password",
+    "InputType": "password",
+    "DefaultValue": "password123",
+    "ParamFieldName": "Password"
   }
-}
+]
