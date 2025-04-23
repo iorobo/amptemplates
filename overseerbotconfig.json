@@ -1,7 +1,7 @@
 [
   {
     "DisplayName": "Palworld API URL",
-    "Category": "Palworld",
+    "Category": "Gameserver",
     "Subcategory": "Connection",
     "Description": "Palworld API host URL",
     "FieldName": "host",
