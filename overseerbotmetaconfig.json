@@ -1,0 +1,9 @@
+{
+  "DisplayName": "OverseerBot",
+  "Description": "Bot to oversee gameserver information and distribute it to the players.",
+  "Author": "iorobo",
+  "Version": "1.0.0.0",
+  "Website": "https://github.com/iorobo/overseerbot",
+  "Icon": "generic",
+  "Category": "Utility"
+}
