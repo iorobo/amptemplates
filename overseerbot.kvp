@@ -19,9 +19,9 @@ Meta.ConfigVersion=1
 Meta.AppConfigId=7e2d58f1-9b11-4c77-bddb-ff21c0201234
 
 App.DisplayName=OverseerBot
-App.RootDir=./
-App.BaseDirectory=./overseerbot/
-App.ExecutableLinux=./overseerbot/overseer-bot
+App.RootDir=.
+App.BaseDirectory=.
+App.ExecutableLinux=./overseer-bot
 App.WorkingDir=.
 App.CommandLineArgs=
 App.UseLinuxIOREDIR=False
