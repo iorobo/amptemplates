@@ -1,0 +1,12 @@
+[AMP]
+ModuleName=GenericModule
+FriendlyName=OverseerBot
+Description=Bot to oversee gameserver information and distribute it to the players.
+Executable=overseer-bot
+StartParameters=
+StopCommand=ctrl+c
+RunAsService=True
+AutoRestart=True
+WorkingDirectory=.
+OS=linux
+PreInstallCommand=wget -O overseer-bot https://github.com/iorobo/overseerbot/releases/latest/download/overseer-bot && chmod +x overseer-bot && wget -O config.template.json https://github.com/iorobo/overseerbot/releases/latest/download/config.template.json && ampinstmgr ReplaceText config.template.json config.json
