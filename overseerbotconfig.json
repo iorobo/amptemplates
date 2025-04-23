@@ -1,0 +1,17 @@
+{
+  "Palworld.Host": {
+    "DefaultValue": "http://localhost:8212",
+    "Description": "Palworld API host URL",
+    "InputType": "text"
+  },
+  "Palworld.Username": {
+    "DefaultValue": "admin",
+    "Description": "Palworld admin username",
+    "InputType": "text"
+  },
+  "Palworld.Password": {
+    "DefaultValue": "password123",
+    "Description": "Palworld admin password",
+    "InputType": "password"
+  }
+}
